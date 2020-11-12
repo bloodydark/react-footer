@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Wrapper, Row, Column, Link, Title } from "./styles/footer";
 
 export default function Footer({ children, ...restProps }) {
-  return <Container {...restProps}>{Children}</Container>;
+  return <Container {...restProps}>{children}</Container>;
 }
 
 Footer.Wrapper = function FooterWrapper({ children, ...restProps }) {
